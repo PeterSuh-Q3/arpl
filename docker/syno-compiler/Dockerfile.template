@@ -26,7 +26,7 @@ RUN for V in ${PLATFORMS}; do \
     done
 
 # Final image
-FROM debian:9-slim
+FROM debian:11-slim
 ENV SHELL=/bin/bash \
     ARCH=x86_64
 
